@@ -1,21 +1,22 @@
+/*
+* CSS Table of Contents
+*
+* global
+* header
+* body
+* hero
+* content
+* benefits
+* footer
+*/
+
+/*global styling start*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
-body {
-    background-color: #d9dcd6;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* global styling end*/
 
 /* header styling start*/
 header {
@@ -51,6 +52,21 @@ header nav ul li {
     margin-left: 25px;
 }
 /* header styling end*/
+
+/* body styling start*/ 
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* body styling end*/
 
 /* hero section styling start */
 .hero {
